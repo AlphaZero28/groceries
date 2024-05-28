@@ -1,0 +1,41 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+label {
+    margin-top: 10px;
+    font-size: larger;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+input {
+    margin-bottom: 10px;
+    width: 30%;
+    /* width: 20rem; */
+    height: 2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 20px;
+}
+
+.submitBtn {
+    margin-top: 20px;
+    box-shadow: 0 0 5px gray;
+    background-color: green;
+    color: white;
+    width: 20%;
+    height: 3rem;
+    border-radius: 10px;
+    font-size: larger;
+    font-weight: 600;
+}
