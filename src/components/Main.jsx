@@ -27,8 +27,8 @@ function Main() {
 
 
         alert(`
-        Cost of Person 1: ${person1Total}
-        Cost of Person 2: ${person2Total}
+        Cost of Person 1: ${person1Total.toFixed(2)}
+        Cost of Person 2: ${person2Total.toFixed(2)}
         `);
 
     };
